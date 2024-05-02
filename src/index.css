@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+  
+  /* Customize the scrollbar */
+  body::-webkit-scrollbar {
+    width: 5px; /* Set the width of the scrollbar */
+  }
+  
+ body::-webkit-scrollbar-track {
+    background: #09080c; /* Set the background color of the scrollbar track */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #f1f1f1; /* Set the color of the scrollbar thumb */
+  }
